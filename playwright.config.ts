@@ -38,7 +38,7 @@ export default defineConfig({
    screenshot:'only-on-failure', //by Maha
    video:'retain-on-failure',    //by Maha
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'on',
   },
 
   /* Configure projects for major browsers */
